@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+    
+    color: $primary-text-color;
+    background-color: #ffffff;
+  
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

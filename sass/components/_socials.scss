@@ -1,0 +1,39 @@
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    @extend %list;
+  }
+  
+  .socials__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+  
+    transition: background-color 250ms $titing-function;
+
+    &:hover,
+    &:focus {
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
+  }
+  
+  .socials__icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8; 
+  
+    transition: fill 250ms $titing-function;
+
+  .socials__link:hover &,
+  .socials__link:focus & {
+    fill: #ffffff;
+  }
+  }

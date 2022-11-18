@@ -1,0 +1,32 @@
+.page-footer__nav {
+    margin-right: 70px;
+    width: 231px;
+  }
+  
+  .page-footer__address {
+    margin-bottom: 9px;
+  
+    color: #ffffff;
+    font-style: normal;
+  }
+  
+  .page-footer__contacts {
+    @extend %list;
+
+    .page-footer__item:not(:last-child) {
+        margin-bottom: 9px;
+      }
+  }
+  
+  .page-footer__link {
+    color: rgba(255, 255, 255, 0.6);
+  
+    text-decoration: none;
+  
+    transition: color 250ms $titing-function;
+  }
+  
+  .page-footer__link:hover,
+  .page-footer__link:focus {
+    color: $accent-color;
+  }
