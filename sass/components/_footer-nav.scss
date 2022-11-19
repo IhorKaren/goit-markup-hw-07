@@ -24,9 +24,9 @@
     text-decoration: none;
   
     transition: color 250ms $titing-function;
-  }
-  
-  .page-footer__link:hover,
-  .page-footer__link:focus {
+
+    &:hover,
+    &:focus {
     color: $accent-color;
+  }
   }

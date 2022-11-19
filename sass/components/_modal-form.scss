@@ -27,10 +27,10 @@
     letter-spacing: 0.01em;
   
     transition: border-color 250ms $titing-function;
-  }
-  
-  .modal-form__input:focus-within {
-    border-color: $accent-color;
+
+    &:focus-within {
+      border-color: $accent-color;
+    }
   }
   
   .modal-form__thumb {
